@@ -1,0 +1,45 @@
+.kira {
+    grid-area: kira;
+    padding: 2rem 2.4rem 2.3rem 2.5rem;
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+
+.kiraName {
+    color:  #50525a;
+}
+
+.kiraGraduate {
+    color: #c2c2c4;
+    font-size: .83rem;
+}
+
+.kiraInfos {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.kiraInfos img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.kiraComment {
+    color: var(--very-dark-grayish-blue);
+    margin-top: 1.6rem;
+}
+
+.kiraText {
+    font-size: 1.54rem;
+}
+
+.kiraDeclaration {
+    margin-top: 1.5rem;
+}
+
+.kiraCite {
+    line-height: 1.4rem;
+    color: var(--cite);
+}

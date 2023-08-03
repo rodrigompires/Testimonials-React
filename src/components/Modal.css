@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(57, 62, 69, .98);
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 2rem;
+
+}
+
+.containerModal {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    grid-template-areas: "modalTitle modalTitle modalTitle modalTitle"
+    "notif rating qrcode mario";
+}
+
+.modalTitle {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    letter-spacing: .1rem;
+    text-align: center;
+    font-size: 2rem;
+    grid-area: modalTitle;
+}
+
+.cardRodrigo {
+    width: 260px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardRodrigo img {
+    width: 100%;
+    height: 150px;
+}
+
+.cardInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.cardProfession {
+    color: #ff884d;
+}
+
+.cardName {
+    font-size: 2rem;
+}
+
+.cardDescription {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cardLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    /* background-color: #052c67; */
+    height: 70px;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 86.67px;
+    height: 100%;
+    text-align: center;
+    color: #ddcfdd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+.linkName {
+    color: white;
+}
+
+@media screen and (max-width: 1025px) {
+    .containerModal {
+        grid-template-areas: "modalTitle modalTitle"
+                            "notif rating"
+                            "qrcode mario";
+                            overflow: scroll;                     
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .containerModal{
+        grid-template-areas: "modalTitle"
+                            "notif"
+                            "rating"
+                            "qrcode"
+                            "mario";
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ANIMATION  MODAL*/
+
+.animeOpenModal {
+    opacity: 0;
+    transform: scale(.8);
+    animation: animeOpenModal .7s forwards;
+}
+
+@keyframes animeOpenModal {
+    to {
+        opacity: 1;
+        transform: initial;
+        pointer-events: all;
+    }
+}

@@ -1,0 +1,44 @@
+.patrick {
+    grid-area: patrick;
+    padding: 2rem 2.4rem 2.3rem 2.5rem;
+    border-radius: 8px;
+    background-color: var(--very-dark-blackish-blue); 
+}
+
+.patrickName {
+    color: #E5EBEE;
+}
+
+.patrickGraduate {
+    color: #8A94A6;
+    font-size: .83rem;
+}
+
+.patrickInfos {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;   
+}
+
+.patrickInfos img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.patrickComment {
+    color: var(--light-grayish-blue);
+    margin-top: 1.6rem;
+}
+
+.patrickText {
+    font-size: 1.54rem;
+}
+
+.patrickDeclaration {
+    margin-top: 1.5rem;
+}
+
+.patrickCite {
+    line-height: 1.4rem;
+    color: var(--light-gray);
+}

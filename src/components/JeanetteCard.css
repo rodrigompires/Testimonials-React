@@ -1,0 +1,44 @@
+.jeanette {
+    grid-area: jeanette;
+    padding: 2rem 2.4rem 2.3rem 2.5rem;
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.jeanetteName {
+    color:  #50525a;
+}
+
+.jeanetteGraduate {
+    color: #c2c2c4;
+    font-size: .83rem;
+}
+
+.jeanetteInfos {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;   
+}
+
+.jeanetteInfos img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.jeanetteComment {
+    color: var(--very-dark-grayish-blue);
+    margin-top: 1.6rem;
+}
+
+.jeanetteText {
+    font-size: 1.54rem;
+}
+
+.jeanetteDeclaration {
+    margin-top: 1.5rem;
+}
+
+.jeanetteCite {
+    line-height: 1.4rem;
+    color: var(--cite);
+}

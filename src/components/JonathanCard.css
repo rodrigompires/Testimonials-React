@@ -1,0 +1,44 @@
+.jonathan {
+    grid-area: jonathan;
+    padding: 1.8rem 2rem 2.3rem 2.4rem;
+    border-radius: 8px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.jonathanName {
+    color: #E5EBEE;
+}
+
+.jonathanGraduate {
+    color: #8A94A6;
+    font-size: .83rem;
+}
+
+.jonathanInfos {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.jonathanInfos img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.jonathanComment {
+    color: hsl(210, 46%, 95%);
+    margin-top: 1.4rem;
+}
+
+.jonathanText {
+    font-size: 1.54rem;
+}
+
+.jonathanDeclaration {
+    margin-top: 1.4rem;
+}
+
+.jonathanCite {
+    line-height: 1.4rem;
+    color: #B4C0CD;
+}

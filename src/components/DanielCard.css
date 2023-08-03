@@ -1,0 +1,48 @@
+.daniel {
+    grid-area: daniel;
+    background-color: var(--moderate-violet);
+    padding: 1.8rem 2rem 2.3rem 2.4rem;
+    background-image: url(../assets//images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+    border-radius: 8px;
+}
+
+.danielName {
+    color: #F4D8FD;
+}
+
+.danielGraduate {
+    color: #b286f8;
+    font-size: .83rem;
+}
+
+.danielInfos {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;  
+}
+
+.danielInfos img {
+    width: 2.4rem;
+    border-radius: 50%;
+    border: 2px solid #AA7DEE;
+}
+
+.danielComment {
+    color: var(--light-grayish-blue);
+    margin-top: 1.4rem;
+}
+
+.danielText {
+    font-size: 1.54rem;
+}
+
+.danielDeclaration {
+    margin-top: 1.4rem;
+}
+
+.danielCite {
+    line-height: 1.4rem;
+    color: #AB88DF;
+}

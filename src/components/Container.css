@@ -1,0 +1,48 @@
+
+.container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+    max-width: 1110px;
+    gap: 30px;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 1025px) {
+    .container {
+        grid-template-areas: "daniel daniel jonathan kira"
+                            "patrick patrick jeanette kira";
+  
+    }
+  }
+  
+  @media screen and (max-width: 801px) {
+    .container {
+        grid-template-areas: "daniel daniel daniel jonathan"
+                            "patrick patrick patrick jeanette"
+                            "kira kira kira kira";
+  
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+        grid-template-areas: "daniel daniel daniel daniel"
+                            "jonathan jonathan jonathan jonathan"
+                            "jeanette jeanette jeanette jeanette"
+                            "patrick patrick patrick patrick"
+                            "kira kira kira kira";
+        padding: 1.85rem;
+    }
+    .danielComment {
+      padding-right: .6rem;
+    }
+    .danielDeclaration {
+      padding-right: 1.7rem;
+  
+  }
+  }

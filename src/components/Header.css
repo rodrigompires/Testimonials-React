@@ -1,0 +1,33 @@
+.menu {
+    min-width: 25rem;
+}
+
+.menuList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menuItem {
+    padding: 1rem;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.menuItem::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    background: linear-gradient(45deg, #ff6e4a, #5c5259);;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .5s ease-in-out;
+}
+
+.menuItem:hover::after {
+    width: 100%;
+}
