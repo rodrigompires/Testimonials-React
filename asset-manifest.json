@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Testimonials-React/static/css/main.ec4217d8.css",
+    "main.js": "/Testimonials-React/static/js/main.59bd7d73.js",
+    "static/media/image-1.svg": "/Testimonials-React/static/media/image-1.5c3993969dd8ec5381b962fade97bd2d.svg",
+    "static/media/Coldiac.ttf": "/Testimonials-React/static/media/Coldiac.3ce6d73e0c40eaaa7b40.ttf",
+    "static/media/brelaregular.otf": "/Testimonials-React/static/media/brelaregular.c748c0e613300bd911ca.otf",
+    "static/media/Coldiac.otf": "/Testimonials-React/static/media/Coldiac.21bd762cacc549ce3bbf.otf",
+    "index.html": "/Testimonials-React/index.html",
+    "static/media/bg-pattern-quotation.svg": "/Testimonials-React/static/media/bg-pattern-quotation.6b460e30439432820da6.svg",
+    "main.ec4217d8.css.map": "/Testimonials-React/static/css/main.ec4217d8.css.map",
+    "main.59bd7d73.js.map": "/Testimonials-React/static/js/main.59bd7d73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec4217d8.css",
+    "static/js/main.59bd7d73.js"
+  ]
+}
