@@ -184,13 +184,13 @@ body.elegant {
   }
 
   .danielText {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Coldiac', serif;
     font-weight: 200;
     font-size: 1.3rem;
   }
 
   .danielCite {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Brela', serif;
     font-size: .9rem;
     color: var(--light-gray);
   }
